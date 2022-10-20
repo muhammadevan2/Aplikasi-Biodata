@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alamat(View view) {
-        Uri uri = Uri.parse("geo:@-6.9791414,110.409604,20.44z");
+        Uri uri = Uri.parse("geo:-6.979156505554034, 110.40970129908524?q=Kos Sadewa 3 No.17");
         Intent it = new Intent (Intent.ACTION_VIEW, uri);
         it.setPackage("com.google.android.apps.maps");
         startActivity(it);
